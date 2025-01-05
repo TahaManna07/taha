@@ -4,7 +4,7 @@ spring:
       discovery:
         locator:
           lower-case-service-id: true
-      globalcors:
+      globals:
         cors-configurations:
           '[/**]':
             allowedOrigins: "*"
